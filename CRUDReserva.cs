@@ -75,16 +75,16 @@ namespace SistemaRestaurantesSenator
                 Console.WriteLine($"{i + 1}. {horarios[i]}");
             }
 
-            int opcion;
+            int opcionHorario;
 
             Console.WriteLine("\nIngrese el número del horario:");
 
-            while (!int.TryParse(Console.ReadLine(), out opcion) || opcion < 1 || opcion > horarios.Count)
+            while (!int.TryParse(Console.ReadLine(), out opcionHorario) || opcionHorario < 1 || opcionHorario > horarios.Count)
             {
                 Console.WriteLine("Opción inválida. Intente nuevamente:");
             }
 
-            return horarios[opcion - 1];
+            return horarios[opcionHorario - 1];
         }
 
         //Función para realizar una reserva.

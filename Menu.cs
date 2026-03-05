@@ -9,13 +9,13 @@ namespace SistemaRestaurantesSenator
             {
                 //Menu
                 Console.WriteLine("\n---------------------------------------------------------");
-                Console.WriteLine("Bievenido al Sistema de Reservas de Restaurantes Senator!");
+                Console.WriteLine("Bienvenido al Sistema de Reservas de Restaurantes Senator!");
                 Console.WriteLine("---------------------------------------------------------");
                 Console.WriteLine("Menu:");
                 Console.WriteLine("1. Realizar Reserva.");
                 Console.WriteLine("2. Eliminar Reserva.");
                 Console.WriteLine("3. Ver Disponibilidad.");
-                Console.WriteLine("4. Imprimir Listado.");
+                Console.WriteLine("4. Imprimir Listado de Reservas.");
                 Console.WriteLine("5. Salir");
                 Console.WriteLine("\nColocar el número de la acción que desea realizar.");
 
